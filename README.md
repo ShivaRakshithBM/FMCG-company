@@ -8,6 +8,7 @@ Desired Final State:
 This will be leveraged by the product category team of the FMCG company to help the retailers increase their sales and get a better image, bolstering the long term relationship with the clients
 
 Questions:
+
 1) What are the internal and external factors which contribute to sales?
 2) What is the metric to evaluate the factors affecting the sales?
 
