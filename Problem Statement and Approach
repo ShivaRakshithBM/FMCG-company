@@ -13,6 +13,7 @@ Questions:
 2) What is the metric to evaluate the factors affecting the sales?
 
 Approach:
+
 Followed the 6 stage framework of CRISP Data Mining process
 
 Business understanding:
@@ -36,10 +37,12 @@ Modelling:
 2) Have created a R Shiny application to predict the targets at various levels of business
 
 Evaluation:
-1) Have used the p-value and the r square value whihc is obtained for the models. As a standard Factors having p value of 0.05 and lesser are considered significant 
-2) R square value helps to determine the strength of the model obtained. If the R square is really low, the results from the model are ignored
+1) Have used the p-value, R square value and adjusted R square values whihc is obtained for the models
+2) Verified the model against a Baseline model which is the mean of the all the sales values present
 
-# Write more about p and R square values
+Validity of assumptions:
+1) The relationship between the dependant and the independant variables should be linear in nature
+2) The errors obtained from the model should be normally distributed
 
 Deployment:
 1) The R shiny application can be used by deploying the same in the FMCG company. Multiple users can access if its on a cloud sharing platform like AWS or R server
