@@ -1,5 +1,3 @@
-# FMCG-company
-
 Problem statement: 
 Identify the factors which affecct the sales at retailer level and product vcategory level. 
 
