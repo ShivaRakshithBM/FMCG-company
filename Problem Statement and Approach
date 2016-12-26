@@ -1,49 +1,43 @@
 Problem statement: 
-Identify the factors which affecct the sales at retailer level and product vcategory level. 
+Identify the factors which affecct the sales at retailer level and product category level. 
 
 Initial State:
-The FMCG company is not aware of the factors which affect the sakes of the retailers whom they sell their product to
+The FMCG company is not aware of the factors which affect the sales of its retailers.
 
 Desired Final State:
-This will be leveraged by the product category team of the FMCG company to help the retailers increase their sales and get a better image, bolstering the long term relationship with the clients
+This will be leveraged by the product category team to help the retailers increase their sales. Thus getting a better image, bolstering the long term relationship with the retailers.
 
 Questions:
-
 1) What are the internal and external factors which contribute to sales?
 2) What is the metric to evaluate the factors affecting the sales?
 
 Approach:
-
 Followed the 6 stage framework of CRISP Data Mining process
 
 Business understanding:
-
-1) The sales vary from retailer to retailer. Also this is varied across product categories inside each retailer
-2) It gets easy for the FMCG company to pitch strategies to improve the retailer sales along woth increase in their product sales
+1) The sales vary from retailer to retailer by a big difference. Also this is varied across product categories inside each retailer
+2) It gets easy for the FMCG company to pitch strategies to improve the retailer sales along with strategies to increase their product category sales
 
 Data understanding
-
 1) The data is a longitudinal. It has the UPC, month, year, Producct Group, Product Category, REtailer, Discount from different kind of promotions
-2) The dataset consists of 1,000,000 instances ranging across multiple years. There are many redundant records for this analysis which are captured for relative performance metric calculations
+2) The dataset consists of ~1,000,000 instances ranging across multiple years. There are many redundant records for this analysis which are captured for relative performance metric calculations
 
 Data Preperation:
-
-1) Filtered out the redundant data for the analysis in focus. Aggregated the data at a year, month, week, retailer, product category level.
+1) Filtered out the redundant data for the analysis in focus. Aggregated the data at a year, month, week, retailer, product category level
 2) Added external factors like Fortune list randing of the retailer, number of stores the retialer has, the number of employees the retailer has
 
 Modelling:
-
-1) I Have used Linear Regression modelling
+1) I Have used Linear Regression modelling for predictions
 2) Have created a R Shiny application to predict the targets at various levels of business
 
 Evaluation:
-1) Have used the p-value, R square value and adjusted R square values whihc is obtained for the models
-2) Verified the model against a Baseline model which is the mean of the all the sales values present
+1) Have used the p-value, R square value and adjusted R square values which were obtained during the models building process
+2) Verified the model against a Baseline model which is the mean of the all the sales values present. The data was filtered for the respective retailers before taking the mean
 
 Validity of assumptions:
 1) The relationship between the dependant and the independant variables should be linear in nature
 2) The errors obtained from the model should be normally distributed
 
-Deployment:
+Deployment (Next Steps):
 1) The R shiny application can be used by deploying the same in the FMCG company. Multiple users can access if its on a cloud sharing platform like AWS or R server
 2) It can also be automated so that on a monthly basis when the data changes, the predictions can be produced and used. We can connect the model to the platform from where the data is stored
