@@ -31,8 +31,7 @@ Modelling:
 2) Have created a R Shiny application to predict the targets at various levels of business
 
 Evaluation:
-1) Have used the p-value, R square value and adjusted R square values which were obtained during the models building process
-2) Verified the model against a Baseline model which is the mean of the all the sales values present. The data was filtered for the respective retailers before taking the mean
+Have used the p-value, R square value and adjusted R square values which were obtained during the models building process
 
 Validity of assumptions:
 1) The relationship between the dependant and the independant variables should be linear in nature
