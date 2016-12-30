@@ -31,7 +31,7 @@ Modelling:
 2) Have created a R Shiny application to predict the targets at various levels of business
 
 Evaluation:
-Have used the p-value, R square value and adjusted R square values which were obtained during the models building process
+Have used the p-value, R square value and adjusted R square values which were obtained during the models building process. As a standard all the drivers, with p values lesser than 0.05, are considered significant.
 
 Validity of assumptions:
 1) The relationship between the dependant and the independant variables should be linear in nature
